@@ -1,0 +1,133 @@
+*{
+  font-family: 'Times New Roman', Times, serif
+}
+body{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    .sidebar {
+        background-color: rgb(69,156,152);
+        width: 30vh;
+        height: 100vh;
+      }
+      nav{
+        background-color: rgb(69,156,152);
+      }
+      .card{
+        color: rgb(197,197,197);
+        background-color: #444c4c;
+        margin-top: 20vh;
+        height: 35vh;
+        border-radius: 20%;
+        text-align: center;
+        width: 40vh;
+      }
+      h5{
+        font-weight: bold;
+      
+      }
+      .card:hover{
+        background-color: #a8a29e;
+        box-shadow: 5px 5px 10px rgb(231, 210, 210);
+        color: aliceblue;
+      }
+      .btn{
+        background-color: cadetblue;
+        border-color: aliceblue;
+        /* border-radius: 20px; */
+      }
+      .btn:hover{
+        color: rgb(69,156,152);
+        border-color: aliceblue;
+        font-size: large;
+        background-color: darkgray;
+      }
+      button a{
+        color: azure;
+        text-decoration: none;
+      }
+      button a:hover{
+        color: rgb(69,156,152);
+      }
+
+      input,level,table{
+        background-color: #fff;
+      }
+
+      #myDIV {
+        
+        
+      }
+      button.fa.fa-search.search {
+        margin-left: -36px;
+        border-left: 1px solid black;
+        background: bottom;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+      }
+
+      .custom-select {
+        position: relative;
+        font-family: Arial;
+      }
+      
+      .custom-select select {
+        display: none; /*hide original SELECT element:*/
+      }
+      
+      .select-selected {
+        background-color: DodgerBlue;
+      }
+      
+      /*style the arrow inside the select element:*/
+      .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 14px;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-color: #fff transparent transparent transparent;
+      }
+      
+      /*point the arrow upwards when the select box is open (active):*/
+      .select-selected.select-arrow-active:after {
+        border-color: transparent transparent #fff transparent;
+        top: 7px;
+      }
+      
+      /*style the items (options), including the selected item:*/
+      .select-items div,.select-selected {
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        cursor: pointer;
+        user-select: none;
+      }
+      
+      /*style items (options):*/
+      .select-items {
+        position: absolute;
+        background-color: DodgerBlue;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+      }
+      
+      /*hide the items when the select box is closed:*/
+      .select-hide {
+        display: none;
+      }
+      
+      .select-items div:hover, .same-as-selected {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      
+      
+    
